@@ -1,1 +1,1 @@
-here is a read me 
+still cannot figure out what's not working with the spell
