@@ -3,15 +3,26 @@ body {
     font-weight: 600;
     margin: 0;
     padding: 0;
-    background-color: #030028;
-    color:rgb(255, 227, 227);
+    background-color: #d6d3ff;
+    color:rgb(50, 50, 61);
  }
+.sofia-sans-extra-condensed-post {
+    font-family: "Sofia Sans Extra Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
  header {
-    background-color: #030028;
-    color:rgb(198, 189, 252);
+    background-color: #d6d3ff;
+    color:rgb(21, 21, 29);
     padding: 8px;
     text-align: justify;
  }
+ .rubik-mono-one-regular {
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
  nav {
     text-align: justify;
     margin: 0.5rem;
@@ -19,9 +30,14 @@ body {
  nav a {
     margin: 0 1rem;
     text-decoration: underline;
-    color:rgb(250, 12, 87);
+    color:rgb(80, 0, 25);
     font-weight: lighter;
  }
+ .carrois-gothic-sc-regular {
+    font-family: "Carrois Gothic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 .container {
 padding: 2rem;
 max-width: 1200px;
@@ -36,15 +52,15 @@ margin: 0 auto;
     height: 100px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #f061fd;
+    border: 1px solid #030033;
     border-radius: 5px;
     font-size: 16px;
   }
   
   #post-form button {
     background-color: #9abdee;
-    color: rgb(51, 24, 255);
-    border: none;
+    color: #030033;
+    border: 1px solid #030033;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -52,12 +68,12 @@ margin: 0 auto;
   }
   
   #post-form button:hover {
-    background-color: #0056b3;
+    background-color: #beddfd;
   }
   
   #post-list .post {
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #030033;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 10px;
@@ -76,7 +92,7 @@ p {
  footer {
     text-align: justify;
     padding: 1rem;
-    background-color: rgb(9, 0, 74);
-    color:rgb(255, 0, 221);
+    background-color: #d6d3ff;
+    color:rgb(80, 0, 25);
     margin-top: 1rem;
  }
