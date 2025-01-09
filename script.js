@@ -1,26 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
 document.getElementById('post-form').addEventListener('submit', (event) => {
     event.preventDefault();
+    console.log('Submit button clicked');
     const content = document.getElementById("post-content").value;
-    const password = document.getElementById('post-password').value;
-
-    if (password === 'GeorgeHarrison3377') {
-        fetch('http://localhost:3000/api/posts', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ content }),
-        })
-          .then((response) => response.json())
-          .then((posts) => {
-            alert('Post added successfully!');
-            displayPosts(posts);
-          })
-          .catch((error) => console.error('Error:', error));
-      } else {
-        alert('Incorrect password. Only authorized users can post.');
-      }
-    })
+    });
 
   function displayPosts(posts) {
     const postList = document.getElementById('post-list');
@@ -31,6 +14,7 @@ document.getElementById('post-form').addEventListener('submit', (event) => {
       postList.appendChild(postDiv);
     });
   }
+});
   
   // Fetch posts when the page loads
   fetch('http://localhost:3000/api/posts')
