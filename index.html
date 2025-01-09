@@ -5,43 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Crafting a Spell</title> 
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Francois+One&family=Rubik+Mono+One&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
    </head> 
    <body>
       <header>
-    <h1> This is my place now</h1>
+    <h1 class="rubik-mono-one-regular">This is my place now</h1>
     <p> I am crafting a powerful spell </p>
     </header>
-    <nav>
+    <nav class="francois-one-regular">
         <a href="#about">This is who I am</a>
-        <a href="#blog">These are my messiest thoughts</a>
+        <a href="#posts">These are my messiest thoughts</a>
         <a href="#contact">Talk to me please</a>
         <a href="#list of ways I feel now">this is how i feel now</a>
     </nav>
     <div class="container">
-        <section id="about">
+        <section id="about" class="carrois-gothic-sc-regular">
             <h2>This is who I am</h2>
-            <p>Benedetta, 25, putting together my life. I enjoy building the most, I enjoy describing second best, I love everyone.</p>
+            <p>Benedetta, 25. I enjoy building the most. 
+                May your day be filled with good ideas.</p>
         </section>
-        <section id="blog">
+        <section id="posts" class="carrois-gothic-sc-regular">
             <h2>These are my messiest thoughts</h2>
-            <section id="contact">
+            <div id="post-list"></div>
+            </section>
+        <section id="contact" class="carrois-gothic-sc-regular">
                 <h2>Talk to me please</h2>
                 <p>Write at: <strong>benedetta.andreasi@gmail.com</strong></p>
             </section>
-            </section>
-        </div>
+
         <main>
-            <section id="create-post">
+        <section id="create-post" class="sofia-sans-extra-condensed-post">
               <h2>New Post</h2>
               <form id="post-form">
                 <textarea id="post-content" placeholder="Write your post here..." required></textarea>
+                <input type="password" id="post-password" placeholder="Enter password" required />
                 <button type="submit">Post</button>
               </form>
             </section>
-          </main>
+        </main>
         <footer>
             <p>&copy; 2025, Benedetta Andreasi, All Rights Reserved.</p>
         </footer>
         <script src="script.js"></script>
-</body>
+   </body>
 </html> 
