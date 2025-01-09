@@ -1,13 +1,19 @@
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
+
 const app = express();
+let posts = [];
 
 // Middleware
+app.use(cors())
 app.use(bodyParser.json());
 app.use(express.static('public')); // Serve static files like HTML, CSS, and JS
+app.get('/api/posts', (req, res) => {
+    res.json(posts);
+});
 
-// Simulated in-memory storage for posts
-let posts = [];
+
 
 // Route to get all posts
 app.get('/api/posts', (req, res) => {
