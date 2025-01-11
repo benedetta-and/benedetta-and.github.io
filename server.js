@@ -1,21 +1,10 @@
+const { MongoClient } = require('mongodb');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-
 const app = express();
 let posts = [];
 
-// Connect to MongoDB
-mongoose.connect('your_mongo_connection_string', { useNewUrlParser: true, useUnifiedTopology: true });
-
-// Define Post Schema
-const postSchema = new mongoose.Schema({
-    content: String,
-    createdAt: { type: Date, default: Date.now },
-  });
-  
-  const Post = mongoose.model('Post', postSchema);
 
 // Middleware
 app.use(cors())
@@ -25,22 +14,13 @@ app.get('/api/posts', (req, res) => {
     res.json(posts);
 });
 
-// API Endpoint to Save Posts
-app.post('/api/posts', async (req, res) => {
-    try {
-      const newPost = new Post({ content: req.body.content });
-      await newPost.save();
-      const posts = await Post.find();
-      res.status(201).json(posts);
-    } catch (err) {
-      res.status(500).json({ error: err.message });
-    }
-  });
-
+// MongoDB connection
+const uri = 'mongodb+srv://benedettaandreasi:gtwkYlkeA0YMuAmd@cluster0.s74g4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Replace with your connection string
+const client = new MongoClient(uri);
+const dbName = 'mywebsite'; // Your database name
 
 // Route to get all posts
-app.get('/api/posts', async (req, res) => {
-    const posts = await Post.find();
+app.get('/api/posts', (req, res) => {
   res.json(posts);
 });
 
