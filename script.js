@@ -13,8 +13,8 @@ document.getElementById('post-form').addEventListener('submit', (event) => {
     })
       .then((response) => response.json())
       .then((posts) => {
-        alert('Post added successfully!');
         displayPosts(posts);
+        document.getElementById('post-content').value = '';
       })
       .catch((error) => console.error('Error:', error));
   });
