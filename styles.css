@@ -11,7 +11,7 @@ the images as variables */
         --body-bg-image: url('https://i.imgur.com/BYr88VV.png');
 
         /* colors */
-        --content: #43256E;
+        --content: #f9e45b;
     }
 
     /* if you have the URL of a font, you can set it below */
@@ -72,7 +72,7 @@ and then link it! Many fonts have separate files for each style
 the other elements, you will need to move that div outside
 of the container */
     #container {
-        max-width: 900px;
+        max-width: 1300px;
         /* this is the width of your layout! */
         /* if you change the above value, scroll to the bottom
 and change the media query according to the comment! */
@@ -83,7 +83,7 @@ and change the media query according to the comment! */
     /* the area below is for all links on your page
 EXCEPT for the navigation */
     #container a {
-        color: #ED64F5;
+        color: #ff7169e5;
         font-weight: bold;
         /* if you want to remove the underline
 you can add a line below here that says:
@@ -92,7 +92,7 @@ text-decoration:none; */
 
     #header {
         width: 100%;
-        background-color: #5e4e8c;
+        background-color: #61b8ff;
         /* header color here! */
         height: 150px;
         /* this is only for a background image! */
@@ -105,7 +105,8 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation section!! */
     #navbar {
         height: 40px;
-        background-color: #13092D;
+        background-color: #56b1fb;
+        border: 1px solid #1cc053
         /* navbar color */
         width: 100%;
     }
@@ -124,7 +125,7 @@ you can add them directly to the <div id="header"></div> element! */
 
     /* navigation links*/
     #navbar li a {
-        color: #ED64F5;
+        color: #ff4545;
         /* navbar text color */
         font-weight: 800;
         text-decoration: none;
@@ -133,7 +134,7 @@ you can add them directly to the <div id="header"></div> element! */
 
     /* navigation link when a link is hovered over */
     #navbar li a:hover {
-        color: #a49cba;
+        color: #d72b00;
         text-decoration: underline;
     }
 
@@ -141,14 +142,28 @@ you can add them directly to the <div id="header"></div> element! */
         display: flex;
     }
 
+    #leftSidebar {
+        background-color: #e1c300;
+        border: 1px solid #1cc053
+        width: 200px;
+        padding: 20px;
+        font-size: smaller; 
+    }
+    
+
+
+    #rightSidebar {
+        background-color: #ffe019;
+        border: 1px solid #1cc053
+        width: 100px;
+        padding: 20px;
+        font-size: smaller; 
+    }
+
     /* this colors BOTH sidebars
 if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
-    aside {
-        background-color: #241445;
-        width: 200px;
-        padding: 20px;
-        font-size: smaller;
+  
         /* this makes the sidebar text slightly smaller */
     }
 
@@ -156,7 +171,8 @@ create styles for #leftSidebar and #rightSidebar */
     /* this is the color of the main content area,
 between the sidebars! */
     main {
-        background-color: #43256E;
+        background-color: #ffc400;
+        border: 1px solid #1cc053
         flex: 1;
         padding: 20px;
         order: 2;
@@ -177,7 +193,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
     }
 
     footer {
-        background-color: #13092D;
+        background-color: #005fb9;
         /* background color for footer */
         width: 100%;
         height: 40px;
@@ -189,7 +205,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
     h1,
     h2,
     h3 {
-        color: #ED64F5;
+        color: #00244d;
     }
 
     h1 {
@@ -198,13 +214,13 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 
     strong {
         /* this styles bold text */
-        color: #ED64F5;
+        color: #00244d;
     }
 
     /* this is just a cool box, it's the darker colored one */
     .box {
-        background-color: #13092D;
-        border: 1px solid #ED64F5;
+        background-color: #005fb9;
+        border: 1px solid #1cc053;
         padding: 10px;
     }
 
@@ -215,7 +231,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         height: 30px;
         padding: 10px;
         font-size: smaller;
-        background-color: #13092D;
+        background-color: #005fb9;
     }
 
 
@@ -228,7 +244,7 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1200px) {
         #flex {
             flex-wrap: wrap;
         }
