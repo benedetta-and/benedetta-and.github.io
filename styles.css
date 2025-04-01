@@ -8,7 +8,7 @@ the images as variables */
 
     :root {
         --header-image: url('https://drive.google.com/drive/folders/1cOk_qi_5dD-S_aFkmgB1KtdS_yQezFU-');
-        --body-bg-image: url('tilemaker - 8bit-city-at-sunset--- (w3zmvaz7q5rj20cny1prtvkfxc).png');
+        --body-bg-image: url('https://i.imgur.com/BYr88VV.png');
 
         /* colors */
         --content: #43256E;
@@ -59,16 +59,13 @@ and then link it! Many fonts have separate files for each style
         background-image: var(--body-bg-image);
     }
 
-    * {
+    html, body {
         box-sizing: border-box;
     }
 
     /* below this line is CSS for the layout */
 
-    /* this is a CSS comment
-to uncomment a line of CSS, remove the * and the /
-before and after the text */
-
+ 
 
     /* the "container" is what wraps your entire website */
     /* if you want something (like the header) to be Wider than
