@@ -105,10 +105,10 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation section!! */
     #navbar {
         height: 40px;
+        width: 100%;
         background-color: #56b1fb;
         border: 1px solid #1cc053
-        /* navbar color */
-        width: 100%;
+        
     }
 
     #navbar ul {
@@ -144,7 +144,7 @@ you can add them directly to the <div id="header"></div> element! */
 
     #leftSidebar {
         background-color: #e1c300;
-        border: 1px solid #1cc053
+        border: 1px solid #1cc053;
         width: 200px;
         padding: 20px;
         font-size: smaller; 
@@ -154,7 +154,7 @@ you can add them directly to the <div id="header"></div> element! */
 
     #rightSidebar {
         background-color: #ffe019;
-        border: 1px solid #1cc053
+        border: 1px solid #1cc053;
         width: 100px;
         padding: 20px;
         font-size: smaller; 
@@ -165,14 +165,14 @@ if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
   
         /* this makes the sidebar text slightly smaller */
-    }
 
 
     /* this is the color of the main content area,
 between the sidebars! */
     main {
         background-color: #ffc400;
-        border: 1px solid #1cc053
+        border: 1px solid #1cc053;
+        width:fit-content;
         flex: 1;
         padding: 20px;
         order: 2;
