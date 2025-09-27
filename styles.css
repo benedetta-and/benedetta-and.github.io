@@ -7,9 +7,8 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
     :root {
-        --header-image: url('https://drive.google.com/drive/folders/1cOk_qi_5dD-S_aFkmgB1KtdS_yQezFU-');
-        --body-bg-image: url('https://benedetta-and.neocities.org/backgrounds/tilemaker%20-%208bit-city-at-dawn---%20(d6m2txnzz5rj60cny1sv5fb294).png');
-
+        --header-image: url('');
+        --body-bg-image: url("sky.jpeg")
         /* colors */
         --content: #f9e45b;
     }
@@ -26,24 +25,24 @@ and then link it! Many fonts have separate files for each style
 */
 
     @font-face {
-        font-family: Venice;
-        src: url('https://benedetta-and.neocities.org/fonts/Venice.ttf');
+        font-family: ;
+        src: url('');
     }
 
 
     @font-face {
-        font-family: Mister Pixel;
-        src: url('https://benedetta-and.neocities.org/fonts/MP16REG.ttf');
+        font-family: ;
+        src: url('');
     }
 
     @font-face {
-        font-family: Mister Pixel;
-        src: url('https://benedetta-and.neocities.org/fonts/MP16TO1.ttf');
+        font-family: ;
+        src: url('');
     }
 
 
     body {
-        font-family: 'Venice';
+        font-family: '';
         margin: 0;
         background-color: #dbd1ff;
         /* you can delete the line below if you'd prefer to not use an image */
@@ -83,74 +82,8 @@ you can add a line below here that says:
 text-decoration:none; */
     }
 
-    #header {
-        width: 100%;
-        background-color: #61b8ff;
-        /* header color here! */
-        height: 150px;
-        /* this is only for a background image! */
-        /* if you want to put images IN the header, 
-you can add them directly to the <div id="header"></div> element! */
-        background-image: var(--header-image);
-        background-size: 100%;
-    }
-
-    /* navigation section!! */
-    #navbar {
-        height: 40px;
-        width: 100%;
-        background-color: #56b1fb;
-        border: 1px solid #1cc053
-        
-    }
-
-    #navbar ul {
-        display: flex;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        justify-content: space-evenly;
-    }
-
-    #navbar li {
-        padding-top: 10px;
-    }
-
-    /* navigation links*/
-    #navbar li a {
-        color: #ff4545;
-        /* navbar text color */
-        font-weight: 800;
-        text-decoration: none;
-        /* this removes the underline */
-    }
-
-    /* navigation link when a link is hovered over */
-    #navbar li a:hover {
-        color: #d72b00;
-        text-decoration: underline;
-    }
-
     #flex {
         display: flex;
-    }
-
-    #leftSidebar {
-        background-color: #ff875f;
-        border: 3px solid #1cc053;
-        width: 200px;
-        padding: 20px;
-        font-size: smaller; 
-    }
-    
-
-
-    #rightSidebar {
-        background-color: #ffac5f;
-        border: 1px solid #1cc053;
-        width: 100px;
-        padding: 20px;
-        font-size: smaller; 
     }
 
    main {
@@ -162,17 +95,8 @@ you can add them directly to the <div id="header"></div> element! */
         order: 2;
     }
 
-
-    #leftSidebar {
-        order: 1;
-    }
-
     #main {
         order: 2
-    }
-
-    #rightSidebar {
-        order: 3;
     }
 
     footer {
