@@ -58,7 +58,7 @@ and then link it! Many fonts have separate files for each style
         font-family: Cotton Cloud;
         src: url('font/Cotton\ Cloud.ttf');
         color: rgb(255, 47, 71);
-        font-size: 50px;
+        font-size: 70px;
         text-align: center;
     }
 
@@ -66,7 +66,7 @@ and then link it! Many fonts have separate files for each style
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
         color: rgb(100, 0, 133);
-        font-size: 30px;
+        font-size: 50px;
         text-align: justify;
 
     }
@@ -75,7 +75,7 @@ and then link it! Many fonts have separate files for each style
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
         color: rgb(100, 0, 133);
-        font-size: 20px;
+        font-size: 40px;
         text-align: justify;
 
     }
@@ -84,7 +84,7 @@ and then link it! Many fonts have separate files for each style
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(100, 0, 133);
-        font-size: 20px;
+        font-size: 30px;
         text-align: justify;
 
     }
@@ -93,7 +93,7 @@ and then link it! Many fonts have separate files for each style
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
         color:#00244d;
-        font-size: 15px;
+        font-size: 20px;
         text-align: justify;
     }
 
