@@ -16,12 +16,20 @@ and then link it! Many fonts have separate files for each style
         src: url('font/Cloud\ Candy.ttf');
     }
 
-
     @font-face {
-        font-family: IBM Plex Mono;
-        src: url('IBMPlexMono-Regular.tff');
+        font-family: Cotton Cloud;
+        src: url('font/Cotton\ Cloud.ttf');
     }
 
+    @font-face {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Italic.ttf');
+    }
 
 
     @font-face {
@@ -29,13 +37,12 @@ and then link it! Many fonts have separate files for each style
         src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
     }
 
-        @font-face {
+     @font-face {
         font-family: LT Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf.otf');
     }
 
     body {
-        font-family: 'IBM Plex Mono';
         margin: 70px;
         padding: 20px;
         border: 3px;
@@ -49,8 +56,48 @@ and then link it! Many fonts have separate files for each style
     }
 
     title {
-        font-family: ;
+        font-family: Cotton Cloud;
+        src: url('font/Cotton\ Cloud.ttf');
+        color: rgb(255, 47, 71);
+        font-size: 50px;
+        text-align: center;
     }
+
+    h1 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.tff');
+        color: rgb(100, 0, 133);
+        font-size: 30px;
+        text-align: justify;
+
+    }
+
+    h2 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.tff');
+        color: rgb(100, 0, 133);
+        font-size: 20px;
+        text-align: justify;
+
+    }
+
+    h3 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Italic.tff');
+        color: rgb(100, 0, 133);
+        font-size: 20px;
+        text-align: justify;
+
+    }
+
+    p {
+        font-family: Lt Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
+        color:#00244d;
+        font-size: 15px;
+        text-align: justify;
+    }
+
 
     html, body {
         box-sizing: border-box;
