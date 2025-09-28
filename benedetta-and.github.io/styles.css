@@ -1,18 +1,5 @@
 /* user styles */
 
-    /* styles are what change the color and sizes of stuff on your site. */
-
-    /* these are variables that are being used in the code
-these tended to confuse some people, so I only kept 
-the images as variables */
-
-    :root {
-        --header-image: url('');
-        --body-bg-image: url("sky.jpeg")
-        /* colors */
-        --content: #f9e45b;
-    }
-
     /* if you have the URL of a font, you can set it below */
     /* feel free to delete this if it's not your vibe */
 
@@ -25,30 +12,44 @@ and then link it! Many fonts have separate files for each style
 */
 
     @font-face {
-        font-family: ;
-        src: url('');
+        font-family: Cloud Candy;
+        src: url('font/Cloud\ Candy.ttf');
     }
 
 
     @font-face {
-        font-family: ;
-        src: url('');
+        font-family: IBM Plex Mono;
+        src: url('IBMPlexMono-Regular.tff');
     }
+
+
 
     @font-face {
-        font-family: ;
-        src: url('');
+        font-family: LT Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
     }
 
+        @font-face {
+        font-family: LT Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf.otf');
+    }
 
     body {
-        font-family: '';
-        margin: 0;
-        background-color: #dbd1ff;
+        font-family: 'IBM Plex Mono';
+        margin: 70px;
+        padding: 20px;
+        border: 3px;
+        color: #002e62;
+        background-color: #feffe4;
         /* you can delete the line below if you'd prefer to not use an image */
         background-size: 1920px 1080px;
         color: #fceaff;
-        background-image: var(--body-bg-image);
+        background-image: url("bgs/sky.jpeg");
+        background-repeat: repeat-y;
+    }
+
+    title {
+        font-family: ;
     }
 
     html, body {
@@ -57,38 +58,14 @@ and then link it! Many fonts have separate files for each style
 
     /* below this line is CSS for the layout */
 
- 
 
-    /* the "container" is what wraps your entire website */
-    /* if you want something (like the header) to be Wider than
-the other elements, you will need to move that div outside
-of the container */
-    #container {
-        max-width: 1100px;
-        /* this is the width of your layout! */
-        /* if you change the above value, scroll to the bottom
-and change the media query according to the comment! */
-        margin: 0 auto;
-        /* this centers the entire page */
-    }
 
-    /* the area below is for all links on your page
-EXCEPT for the navigation */
-    #container a {
-        color: #ff7169e5;
-        font-weight: bold;
-        /* if you want to remove the underline
-you can add a line below here that says:
-text-decoration:none; */
-    }
 
     #flex {
         display: flex;
     }
 
    main {
-        background-color: #ff975f;
-        border: 2px solid #1cc053;
         width:fit-content;
         flex: 1;
         padding: 20px;
@@ -124,22 +101,7 @@ text-decoration:none; */
         color: #00244d;
     }
 
-    /* this is just a cool box, it's the darker colored one */
-    .box {
-        background-color: #005fb9;
-        border: 1px solid #1cc053;
-        padding: 10px;
-    }
-
-    /* CSS for extras */
-
-    #topBar {
-        width: 100%;
-        height: 30px;
-        padding: 10px;
-        font-size: smaller;
-        background-color: #005fb9;
-    }
+  
 
 
     /* BELOW THIS POINT IS MEDIA QUERY */
