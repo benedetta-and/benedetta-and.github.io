@@ -31,7 +31,6 @@ and then link it! Many fonts have separate files for each style
         src: url('LTAsusMono-Italic.ttf');
     }
 
-
     @font-face {
         font-family: LT Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
