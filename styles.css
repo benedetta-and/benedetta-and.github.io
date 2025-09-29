@@ -30,13 +30,12 @@
     }
 
     body {
-        margin: 30px;
         padding: 15px;
         color: #002e62;
-        background-size: 1920px 1080px;
+        background-size: cover;
+        background-position: center;
         background-image: url("bgs/sky.jpeg");
         background-repeat: repeat-y;
-        background-repeat: repeat-x;
     }
 
 
@@ -44,7 +43,7 @@
         font-family: Cotton Cloud;
         src: url('font/Cotton\ Cloud.ttf');
         color: #620052;
-        font-size: 170px;
+        font-size: 130px;
         text-align: center;
         margin-top: 0px;
         margin-bottom: 50px;
@@ -103,10 +102,11 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 80px);
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-template-rows: repeat(3, 80px);
   gap: 1.5rem;
-  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
   align-items: center;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .grid-container a img:hover {
-  transform: scale(0.3);
+  transform: scale(1.2);
 }
 
     footer {
@@ -142,7 +142,7 @@
     }
 
     h1 {
-        font-size: 170px;
+        font-size: 130px;
     }
 
     strong {
