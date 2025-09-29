@@ -44,7 +44,7 @@
        font-family: Cotton Cloud;
         src: url('font/Cotton\ Cloud.ttf');
         color: #620052;
-        font-size: 70px;
+        font-size: 170px;
         text-align: center;
 
     }
@@ -71,7 +71,7 @@
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
         color:#00244d;
-        font-size: 25px;
+        font-size: 30px;
         text-align: justify;
     }
 
@@ -105,8 +105,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 120px);
-  grid-template-rows: repeat(3, 120px);
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
@@ -132,19 +132,19 @@
         text-align: center;
     }
 
-    title {
+    h1 {
         color:#620052;
         text-align: center;
     }
 
-    h1,
+   
     h2,
     h3 {
         color: #00244d;
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 170px;
     }
 
     strong {
