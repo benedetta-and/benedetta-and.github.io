@@ -80,9 +80,6 @@
     /* below this line is CSS for the layout */
 
 
-    #flex {
-        display: flex;
-    }
  
     .bio {
       text-align: center;
