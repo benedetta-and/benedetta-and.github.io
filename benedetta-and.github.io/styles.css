@@ -31,7 +31,9 @@
 
     body {
         padding: 15px;
-        color: #002e62;
+        font-size: 30px;
+        color: #00499c;
+        text-align: center;
         background-size: cover;
         background-position: center;
         background-image: url("bgs/sky.jpeg");
@@ -71,7 +73,7 @@
     p {
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
-        color:#6a8aaf;
+        color:#fb0b57;
         font-size: 40px;
         text-align: center;
     }
@@ -79,18 +81,11 @@
 
     /* below this line is CSS for the layout */
 
-
- 
-    .bio {
-      text-align: center;
-     }
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 200px);
-  gap: 1.5rem;
-  max-width: 900px;
+  gap: 1rem;
+  max-width: 1080px;
   margin: 0 auto;
   align-items: center;
 }
