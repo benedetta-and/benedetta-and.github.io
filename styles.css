@@ -31,7 +31,7 @@
 
     body {
         padding: 15px;
-        font-size: 30px;
+        font-size: 20px;
         color: #00499c;
         text-align: center;
         background-size: cover;
@@ -45,10 +45,10 @@
         font-family: Cotton Cloud;
         src: url('font/Cotton\ Cloud.ttf');
         color: #620052;
-        font-size: 130px;
+        font-size: 100px;
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
 
     }
 
@@ -56,7 +56,7 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
         color: rgb(100, 0, 133);
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
 
     }
@@ -65,7 +65,7 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(100, 0, 133);
-        font-size: 45px;
+        font-size: 40px;
         text-align: center;
 
     }
@@ -73,8 +73,8 @@
     p {
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
-        color:#fb0b57;
-        font-size: 40px;
+        color:#0b53fb;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -82,8 +82,8 @@
     /* below this line is CSS for the layout */
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 200px);
+  display: inline-grid;
+  grid-template-columns: repeat(3, auto);
   gap: 1rem;
   max-width: 1080px;
   margin: 0 auto;
