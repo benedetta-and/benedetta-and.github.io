@@ -74,7 +74,7 @@
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
         color:#0b53fb;
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -82,11 +82,11 @@
     /* below this line is CSS for the layout */
 
 .grid-container {
-  display: inline-grid;
-  grid-template-columns: repeat(3, 200px);
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: space-between;
   max-width: 1080px;
-  align-items: center;
+  align-content: center;
 }
 
 .grid-container a img {
