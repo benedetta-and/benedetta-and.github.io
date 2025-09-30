@@ -46,7 +46,7 @@
         font-size: 130px;
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
 
     }
 
@@ -55,7 +55,7 @@
         src: url('LTAsusMono-Bold.tff');
         color: rgb(100, 0, 133);
         font-size: 50px;
-        text-align: justify;
+        text-align: center;
 
     }
 
@@ -63,17 +63,17 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(100, 0, 133);
-        font-size: 40px;
-        text-align: justify;
+        font-size: 45px;
+        text-align: center;
 
     }
 
     p {
         font-family: Lt Amber;
-        src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
-        color:#00244d;
-        font-size: 30px;
-        text-align: justify;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
+        color:#6a8aaf;
+        font-size: 40px;
+        text-align: center;
     }
 
 
@@ -99,6 +99,7 @@
 
 .grid-container {
   display: grid;
+  grid-template-columns: 200px 200px 200px;
   gap: 1.5rem;
   max-width: 600px;
   margin: 0 auto;
