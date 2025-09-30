@@ -99,8 +99,6 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  grid-auto-rows: 80px;;
   gap: 1.5rem;
   max-width: 600px;
   margin: 0 auto;
@@ -147,34 +145,12 @@
         color: #00244d;
     }
 
-  
 
-
-    /* BELOW THIS POINT IS MEDIA QUERY */
-
-    /*
-in order to keep things responsive, take your new height,
-and then subtrack it by 100. use this new number as the 
-"max-width" value below
-*/
 
     @media only screen and (max-width: 980px) {
        #flex {
          
             flex-wrap: wrap;
         }
-
-        aside {
-            width: 100%;
-        }
-
-        /* the order of the items is adjusted here for responsiveness!
-since the sidebars would be too small on a mobile device.
-feel free to play around with the order!
-*/
-        main {
-            order: 1;
-        }
-
 
     }
