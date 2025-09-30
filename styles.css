@@ -30,7 +30,7 @@
     }
 
     body {
-        padding: 15px;
+        padding: 5px;
         font-size: 20px;
         color: #00499c;
         text-align: center;
@@ -83,10 +83,9 @@
 
 .grid-container {
   display: inline-grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 200px);
   gap: 1rem;
   max-width: 1080px;
-  margin: 0 auto;
   align-items: center;
 }
 
