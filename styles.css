@@ -35,8 +35,9 @@
         color: #00499c;
         text-align: center;
         background-size: cover;
+        align-items: center;
         background-position: center;
-        background-image: url("bgs/blotchsky.jpeg");
+        background-image: url("bgs/procreate.jpg");
         background-repeat: repeat-y;
     }
 
@@ -83,11 +84,11 @@
     /* below this line is CSS for the layout */
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  gap: 20px;
+  display: inline-grid;
+  place-content: space-around center;
+  grid-template-columns: repeat(3, 150px);
+  gap: 2rem;
   max-width: 1080px;
-  align-content: center;
 }
 
 .grid-container a img {
@@ -101,14 +102,6 @@
   transform: scale(1.2);
 }
 
-    footer {
-        background-color: #add7ff;
-        /* background color for footer */
-        width: 100%;
-        height: 40px;
-        padding: 10px;
-        text-align: center;
-    }
 
     h1 {
         color:#620052;
