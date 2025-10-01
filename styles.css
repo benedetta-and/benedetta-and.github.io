@@ -91,9 +91,17 @@
   max-width: 1080px;
 }
 
+.grid-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
 .grid-container a img {
   width: 100%;
-  height: auto;
+  height: 100%; 
   object-fit: contain;
   transition: transform 0.2s ease;
 }
