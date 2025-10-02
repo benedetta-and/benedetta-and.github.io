@@ -1,13 +1,8 @@
-
-    @font-face {
+@font-face {
         font-family: Cloud Candy;
         src: url('font/Cloud\ Candy.ttf');
     }
 
-    @font-face {
-        font-family: Cotton Cloud;
-        src: url('font/Cotton\ Cloud.ttf');
-    }
 
     @font-face {
         font-family: LT Asus Mono;
@@ -43,10 +38,12 @@
 
 
     h1 {
-        font-family: Cotton Cloud;
-        src: url('font/Cotton\ Cloud.ttf');
+        font-family: Cloud Candy;
+        src: url('font/Cloud\ Candy.ttf');
         color: #620052;
-        font-size: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 50px;
         text-align: center;
         margin-top: 0px;
         margin-bottom: 5px;
@@ -57,7 +54,9 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
         color: rgb(100, 0, 133);
-        font-size: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 40px;
         text-align: center;
 
     }
@@ -66,7 +65,9 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(100, 0, 133);
-        font-size: 20px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 30px;
         text-align: center;
         flex-wrap: wrap;
 
@@ -76,83 +77,34 @@
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
         color:#0b53fb;
+        margin-left: 70px;
+        margin-right: 70px;
         font-size: 20px;
-        text-align: center;
+        text-align: justify;
+        text-align-last: center;
+        flex-wrap: wrap;
     }
 
 
-    /* below this line is CSS for the layout */
-
-.grid-container {
-  display: inline-grid;
-  place-content: space-around center;
-  grid-template-columns: repeat(3, 150px);
-  gap: 2rem;
-  max-width: 1080px;
-}
-
-.grid-container a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-}
-
-.grid-container a img {
-  width: 100%;
-  height: 100%; 
-  object-fit: contain;
-  transition: transform 0.2s ease;
-}
-
-.grid-container a .label {
-  background: rgba(255, 255, 255, 0);
-  color: rgb(255, 183, 0);
-  font-size: 15px;
-  padding: 3px 6px;
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-.grid-container a img:hover {
-  transform: scale(1.2);
-  opacity: 0.3;
-}
-
-.grid-container a img:hover .label {
-    opacity: 1;  
-}
-
-    h1 {
-        color:#620052;
-        text-align: center;
-    }
-
-   
-    h2,
-    h3 {
-        color: #00244d;
-    }
-
-    h1 {
-        font-size: 130px;
+    div p {
+        background:rgba(134, 159, 255, 0.42);
+        font-family: Lt Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
+        color:#003e32;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 20px;
+        outline-style: double;
+        outline-color: #c1ff3b;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+        text-align-last: center;
+        flex-wrap: wrap;
     }
 
 
-
-    @media only screen and (max-width: 980px) {
-        .grid-container {
-    grid-template-columns: repeat(2, 120px); /* 2 per row on tablets */
-  }
-}
-
-     @media only screen and (max-width: 600px) {
-        .grid-container {
-    grid-template-columns: repeat(1, 120px); /* 1 per row on phones */
-  }
-}
+    /* layout */
 
     @media only screen and (max-width: 600px) {
   h1 {
@@ -171,5 +123,3 @@
     font-size: 14px;
   }
 }
-
-
