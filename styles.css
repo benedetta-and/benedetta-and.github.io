@@ -116,17 +116,12 @@
   transition: transform 0.2s ease;
 }
 
-.grid-container a .label {
-  opacity: 1;
-  transition: opacity 0.2s ease;
-}
-
 .grid-container a img:hover {
   transform: scale(1.2);
   opacity: 0.3;
 }
 
-.grid-container a img:hover .label {
+.grid-container a span:hover .label {
     opacity: 1;  
 }
 
