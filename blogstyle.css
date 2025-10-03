@@ -26,14 +26,14 @@
 
 body {
         padding: 5px;
-        color: #00499c;
         background-size: cover;
         align-items: center;
         background-position: center;
         background-image: url("bgs/procreate.jpg");
         background-repeat: repeat-y;
     }
-.blogpost {
+
+    .blogpost {
         background:rgba(134, 209, 255, 0.56);
         color:#003e32;
         margin-left: 70px;
