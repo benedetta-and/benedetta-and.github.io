@@ -121,7 +121,7 @@
   opacity: 0.3;
 }
 
-.grid-container a span:hover .label {
+.grid-container:hover .label {
     opacity: 1;  
 }
 
