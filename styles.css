@@ -90,9 +90,12 @@
   grid-template-columns: repeat(3, 150px);
   gap: 2rem;
   max-width: 1080px;
+  justify-items: center;
+  align-items: center;
 }
 
 .grid-container a {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,8 +125,13 @@
     font-size: 20px;
 }
 
-.grid-container:hover .label {
-    opacity: 1;  
+.grid-container a:hover .label {
+    opacity: 1; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
 }
 
     h1 {
