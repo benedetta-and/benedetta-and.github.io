@@ -82,15 +82,20 @@
 
 
     /* below this line is CSS for the layout */
-.label {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
+.grid-container .label {
+  font-family: LT Asus Mono;
+  src: url('LTAsusMono-Bold.tff');
   color: #004e1a;
   font-size: 15px;
+  position: absolute;
+  padding: 3px 6px;
+  border-radius: 4px;
+  bottom: 10px;
+  left: 50%;
   opacity: 0;
+  transition: opacity 0.2s ease;
+  background: transparent;
+  pointer-events: none; /* don’t block clicking the link */
 }
 
 .grid-container {
