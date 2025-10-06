@@ -29,11 +29,55 @@ body {
         background-size: cover;
         align-items: center;
         background-position: center;
-        background-image: url("bgs/procreate.jpg");
+        background-image: url("bgs/magic?.jpg");
         background-repeat: repeat-y;
     }
 
-    .page-header {
+
+    h1 {
+        font-family: Cloud Candy;
+        src: url('font/Cloud\ Candy.ttf');
+        color: rgb(185, 0, 83);
+        font-size: 60px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    h2 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.tff');
+        color: rgb(172, 0, 143);
+        font-size: 25px;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+
+    h3 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Italic.tff');
+        color: rgb(85, 0, 146);
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    p {
+        font-family: Lt Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
+        color:rgb(48, 0, 85);
+        padding: 10px;
+        font-size: 23px;
+        text-align: justify;
+        text-align-last: center;
+        flex-wrap: wrap;
+    }
+
+  .page-header {
         display: flex;
         align-items: center;      /* vertically centers the home icon + title */
         justify-content: center;  /* centers everything horizontally */
@@ -79,50 +123,6 @@ body {
         padding-right: 10px;
         flex-wrap: wrap;
     }
-
-    h1 {
-        font-family: Cloud Candy;
-        src: url('font/Cloud\ Candy.ttf');
-        color: rgb(185, 0, 83);
-        font-size: 60px;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 5px;
-
-    }
-
-    h2 {
-        font-family: LT Asus Mono;
-        src: url('LTAsusMono-Bold.tff');
-        color: rgb(172, 0, 143);
-        font-size: 25px;
-        text-align: center;
-
-    }
-
-    h3 {
-        font-family: LT Asus Mono;
-        src: url('LTAsusMono-Italic.tff');
-        color: rgb(85, 0, 146);
-        font-size: 19px;
-        text-align: center;
-        margin-top: 10px;
-        flex-wrap: wrap;
-
-    }
-
-    p {
-        font-family: Lt Amber;
-        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
-        color:rgb(48, 0, 85);
-        padding: 10px;
-        font-size: 23px;
-        text-align: justify;
-        text-align-last: center;
-        flex-wrap: wrap;
-    }
-
-
     .date {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.ttf');
