@@ -36,8 +36,8 @@ body {
     .blogpost {
         background:rgba(134, 211, 255, 0.451);
         color:#003e32;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 120px;
+        margin-right: 120px;
         outline-style: double;
         outline-color: #94003e;
         padding-left: 10px;
@@ -69,8 +69,9 @@ body {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(85, 0, 146);
-        font-size: 25px;
+        font-size: 19px;
         text-align: center;
+        margin-top: 10px;
         flex-wrap: wrap;
 
     }
