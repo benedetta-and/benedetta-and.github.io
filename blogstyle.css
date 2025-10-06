@@ -42,9 +42,14 @@ body {
         color: rgb(0, 41, 174);
         font-size: 20px;
     }
-    
+
     .button:hover .label {
         opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1; 
     }
 
     .blogpost {
