@@ -87,7 +87,7 @@ body {
     .page-header a {
         position: absolute;
         margin-top: 0;
-        margin-left: 60px;
+        margin-left: 30px;
         padding: 0px;
         display: inline-block;
     }
@@ -126,16 +126,16 @@ body {
        pointer-events: none;
     }
 
-
     .blogpost {
         background:rgba(134, 211, 255, 0.451);
         color:#003e32;
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: 180px;
+        margin-right: 180px;
         outline-style: double;
         outline-color: #94003e;
         padding-left: 10px;
         padding-right: 10px;
+        padding-top: 10px;
         flex-wrap: wrap;
     }
     .date {
@@ -152,16 +152,26 @@ body {
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
         color:rgb(0, 85, 255);
         font-size: 20px;
-        text-align: right;
+        text-justify: right;
     }
 
-    .summary {
+    .blogpost details summary {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
         color: rgb(0, 82, 50);
         font-size: 30px;
         text-align: left;
         padding: 19px;
+    }
+
+    .blogpost title {
+        font-family: Lt Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
+        color:rgb(48, 0, 85);
+        font-size: 30px;
+        text-align: justify;
+        text-align-last: center;
+        flex-wrap: wrap;
     }
 
         
