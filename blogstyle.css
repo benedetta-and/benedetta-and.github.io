@@ -88,7 +88,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;                /* or right: 0; for the other corner */
-  padding: 10px;
+  padding: 0px;
 }
 
 .page-header a img {
