@@ -87,7 +87,7 @@ body {
     .page-header a {
         position: absolute;
         margin-top: 0;
-        margin-left: 5px;
+        margin-left: 0px;
         padding: 0px;
         display: inline-block;
     }
@@ -103,7 +103,7 @@ body {
     .page-header a .label {
         position: absolute;
         top: 70%;
-        left: 50%;
+        left: 40%;
         opacity: 0;
         transition: opacity 0.3s ease;
         font-family: LT Asus Mono;
@@ -121,7 +121,7 @@ body {
        opacity: 1; 
        position: absolute;
        top: 70%;
-       left: 50%;
+       left: 40%;
        z-index: 1; 
        pointer-events: none;
     }
