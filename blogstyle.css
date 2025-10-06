@@ -114,6 +114,7 @@ body {
     src: url('LTAsusMono-Bold.tff');
     color: rgb(0, 41, 174);
     font-size: 20px;
+    pointer-events: none;
 }
 
 .page-header a:hover .label {
