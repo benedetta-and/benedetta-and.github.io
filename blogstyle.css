@@ -117,7 +117,7 @@ body {
     pointer-events: none;
 }
 
-.page-header a:hover .label {
+.page-header a:hover + .label {
     opacity: 1; 
     position: absolute;
     top: 60%;
@@ -167,6 +167,28 @@ body {
         
 
     /* layout */
+
+     @media only screen and (max-width: 980px) {
+    .page-header a img {
+       width: 90px;
+       height: 120px;  
+     }
+    .blogpost {
+        margin-left: 80px;
+        margin-right: 80px;
+     }
+}
+
+     @media only screen and (max-width: 600px) {
+    .page-header a img {
+        width: 30px;
+        height: 40px;
+       }
+    .blogpost {
+        margin-left: 60px;
+        margin-right: 60px;
+       }
+}
 
     @media only screen and (max-width: 600px) {
   h1 {
