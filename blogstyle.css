@@ -77,48 +77,51 @@ body {
         flex-wrap: wrap;
     }
 
-  .page-header {
-        display: flex;
-        text-align: center;      /* vertically centers the home icon + title */
-        position: relative;
-        margin-top: 2rem;
+.page-header {
+  display: flex;
+  place-content: space-around center;
+  max-width: 1080px;
 }
 
-    .home-button {
-        position: relative;
-        top: 20px;
-        left: 20px;
+.page-header a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 160px;
+}
 
-    }
-    
-    .home-button img {
-        width: 120px;          /* or whatever matches your grid icons */
-        height: 160px;
-        object-fit: contain;
-        transition: transform 0.2s ease;
-    } 
-    
+.page-header a img {
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
 
-    .home-button a:hover img {
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
+.page-header a:hover img {
+  transform: scale(1.2);
+  opacity: 0.3;
+}
 
-    .home-button .label {
-        position: absolute;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        font-family: LT Asus Mono;
-        src: url('LTAsusMono-Bold.tff');
-        color: rgb(0, 41, 174);
-        font-size: 20px;
-    }
+.page-header .label {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: LT Asus Mono;
+    src: url('LTAsusMono-Bold.tff');
+    color: rgb(0, 41, 174);
+    font-size: 20px;
+}
 
-    .home-button a:hover .label {
-        opacity: 1; 
-        position: absolute;
-        z-index: 1;
-    }
+.page-header a:hover .label {
+    opacity: 1; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
 
 
     .blogpost {
