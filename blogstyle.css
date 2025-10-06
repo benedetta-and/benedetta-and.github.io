@@ -106,8 +106,8 @@ body {
 
 .page-header a .label {
     position: absolute;
-    top: 65%;
-    left: 40%;
+    top: 70%;
+    left: 50%;
     opacity: 0;
     transition: opacity 0.3s ease;
     font-family: LT Asus Mono;
