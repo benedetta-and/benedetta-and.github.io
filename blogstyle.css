@@ -43,6 +43,11 @@ body {
         font-size: 20px;
     }
 
+    .button a:hover img {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+
     .button a:hover .label {
         position: absolute;
         opacity: 1;
