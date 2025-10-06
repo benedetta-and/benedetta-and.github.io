@@ -81,7 +81,7 @@ body {
         display: flex;
         align-items: center;      /* vertically centers the home icon + title */
         justify-content: center;  /* centers everything horizontally */
-        gap: 10rem;                /* space between icon and title */
+        gap: 50rem;                /* space between icon and title */
         position: relative;
         margin-top: 2rem;
 }
@@ -107,7 +107,7 @@ body {
         color: rgb(0, 41, 174);
         font-size: 20px;
     }
-    
+
     .home-button a:hover .label {
         opacity: 1; 
         position: absolute;
