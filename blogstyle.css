@@ -32,6 +32,18 @@ body {
         background-image: url("bgs/procreate.jpg");
         background-repeat: repeat-y;
     }
+
+    .button {
+        position: top-left;
+        display: inline-block;
+        margin-left: 120px;
+        margin-right:0px;
+        margin-top: 10px;
+        border: none;
+        color:rgba(0, 0, 0, 0);
+        padding: 0px 0pxpx;
+
+    }
  
     .button .label {
         position: absolute;
