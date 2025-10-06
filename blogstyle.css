@@ -87,7 +87,7 @@ body {
     .page-header a {
         position: absolute;
         margin-top: 0;
-        margin-left: 30px;
+        margin-left: 5px;
         padding: 0px;
         display: inline-block;
     }
@@ -129,8 +129,8 @@ body {
     .blogpost {
         background:rgba(134, 211, 255, 0.451);
         color:#003e32;
-        margin-left: 180px;
-        margin-right: 180px;
+        margin-left: 200px;
+        margin-right: 200px;
         outline-style: double;
         outline-color: #94003e;
         padding-left: 10px;
