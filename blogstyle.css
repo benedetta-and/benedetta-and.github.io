@@ -29,7 +29,7 @@ body {
         background-size: cover;
         align-items: center;
         background-position: center;
-        background-image: url("bgs/magic?.jpg");
+        background-image: url("bgs/magic.jpg");
         background-repeat: repeat-y;
     }
 
@@ -79,12 +79,18 @@ body {
 
   .page-header {
         display: flex;
-        align-items: center;      /* vertically centers the home icon + title */
-        justify-content: center;  /* centers everything horizontally */
-        gap: 50rem;                /* space between icon and title */
+        text-align: center;      /* vertically centers the home icon + title */
         position: relative;
         margin-top: 2rem;
 }
+
+    .home-button {
+        position: relative;
+        top: 20px;
+        left: 20px;
+
+    }
+    
     .home-button img {
         width: 120px;          /* or whatever matches your grid icons */
         height: 160px;
