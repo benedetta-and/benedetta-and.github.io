@@ -78,6 +78,7 @@ body {
     }
 
     .page-header {
+        justify-items: space-around;
         position: relative;
         width: 100%;            /* full width of the page */
         text-align: center;     /* centers the title text */
@@ -85,8 +86,6 @@ body {
     }
 
     .page-header a {
-        left: 20px;
-        align-items: start;
         margin-top: 0;
         margin-left: 0px;
         padding: 0px;
