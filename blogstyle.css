@@ -85,8 +85,8 @@ body {
     }
 
     .page-header a {
+        left: 20px;
         align-items: start;
-        position: relative;
         margin-top: 0;
         margin-left: 0px;
         padding: 0px;
