@@ -78,16 +78,14 @@ body {
     }
 
 .page-header {
-  display: flex;
-  place-content: space-around center;
-  max-width: 900px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .page-header a {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
   width: 120px;
   height: 160px;
 }
