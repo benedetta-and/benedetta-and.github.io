@@ -78,17 +78,17 @@ body {
     }
 
 .page-header {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
+  position: relative;
+  width: 100%;            /* full width of the page */
+  text-align: center;     /* centers the title text */
+  margin-top: 10px;
 }
 
 .page-header a {
-  position: relative;
-  display: inline-block;
-  width: 120px;
-  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;                /* or right: 0; for the other corner */
+  padding: 10px;
 }
 
 .page-header a img {
