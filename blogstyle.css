@@ -33,6 +33,20 @@ body {
         background-repeat: repeat-y;
     }
 
+    .label {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.tff');
+        color: rgb(0, 41, 174);
+        font-size: 20px;
+    }
+    
+    .button:hover .label {
+        opacity: 1;
+    }
+
     .blogpost {
         background:rgba(134, 211, 255, 0.451);
         color:#003e32;
