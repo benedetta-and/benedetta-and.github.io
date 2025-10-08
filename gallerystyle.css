@@ -36,7 +36,7 @@
         background-size: cover;
         align-items: center;
         background-position: center;
-        background-image: url("bgs/video_photo_text.jpg");
+        background-image: url("bgs/v.jpg");
         background-repeat: repeat-y;
     }
 
@@ -55,7 +55,7 @@
     h2 {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Bold.tff');
-        color: rgb(100, 0, 133);
+        color: rgb(161, 0, 75);
         font-size: 30px;
         text-align: center;
 
@@ -64,7 +64,7 @@
     h3 {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
-        color: rgb(100, 0, 133);
+        color: rgb(69, 0, 133);
         font-size: 20px;
         text-align: center;
         flex-wrap: wrap;
