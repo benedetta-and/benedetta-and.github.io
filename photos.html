@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landed on bunni</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallerystyle.css">
 </head>
 <body>
  <header>
-    <h1>feelings of the season</h1>
+    <h1>my photos!</h1>
     <h3>self-developed, homegrown pictures soon.</h3>
  </header>
+
+ <main class="projects">
+
+  <!-- Project 1 -->
+  <section id="project1" class="project">
+    <h2>the spain issue</h2>
+    <h3> (the issue was: sun infiltrations) kodak color plus</h3>
+
+    <div class="filmstrip">
+      <button class="arrow left" onclick="scrollLeft(this)">&#9664;</button>
+
+      <div class="images">
+        <img src="photos/roll1 kodak color plus/irunafall.jpeg" alt="i fell in iruna">
+        <img src="photos/roll1 kodak color plus/irunafam.jpeg" alt="my sister and dad in iruna">
+        <img src="photos/roll1 kodak color plus/ntureithink.jpeg" alt="driving in spain">
+      </div>
+
+      <button class="arrow right" onclick="scrollRight(this)">&#9654;</button>
+    </div>
+
+    <div class="nav-vertical">
+      <a href="#project2" class="down">↓ next</a>
+    </div>
+  </section>
+
+  <!-- Project 2 -->
+  <section id="project2" class="project">
+    <h2>the palestine issue</h2>
+    <h3>(the camera is fixed, the issue is our government) kodak gold 200</h3>
+
+    <div class="filmstrip">
+      <button class="arrow left" onclick="scrollLeft(this)">&#9664;</button>
+
+      <div class="images">
+        <img src="images/p2a.jpg" alt="">
+        <img src="images/p2b.jpg" alt="">
+        <img src="images/p2c.jpg" alt="">
+      </div>
+
+      <button class="arrow right" onclick="scrollRight(this)">&#9654;</button>
+    </div>
+
+    <div class="nav-vertical">
+      <a href="#project1" class="up">↑ previous</a>
+    </div>
+  </section>
+
+</main>
+<script src="gallery.js"></script>
+</body>
+</html>

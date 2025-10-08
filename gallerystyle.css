@@ -1,0 +1,141 @@
+ @font-face {
+        font-family: Cloud Candy;
+        src: url('font/Cloud\ Candy.ttf');
+    }
+
+    @font-face {
+        font-family: Cotton Cloud;
+        src: url('font/Cotton\ Cloud.ttf');
+    }
+
+    @font-face {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Italic.ttf');
+    }
+
+    @font-face {
+        font-family: LT Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Demibold.otf');
+    }
+
+     @font-face {
+        font-family: LT Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf.otf');
+    }
+
+    body {
+        padding: 5px;
+        font-size: 20px;
+        color: #00499c;
+        text-align: center;
+        background-size: cover;
+        align-items: center;
+        background-position: center;
+        background-image: url("bgs/procreate.jpg");
+        background-repeat: repeat-y;
+    }
+
+
+    h1 {
+        font-family: Cotton Cloud;
+        src: url('font/Cotton\ Cloud.ttf');
+        color: #620052;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    h2 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Bold.tff');
+        color: rgb(100, 0, 133);
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    h3 {
+        font-family: LT Asus Mono;
+        src: url('LTAsusMono-Italic.tff');
+        color: rgb(100, 0, 133);
+        font-size: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+
+    p {
+        font-family: Lt Amber;
+        src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
+        color:#0b53fb;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .project {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.filmstrip {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 90%;
+  overflow: hidden; /* hides overflow during scroll */
+}
+
+.images {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+}
+
+.images img {
+  height: 300px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  background: rgba(255,255,255,0.8);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0 10px;
+  transition: background 0.2s ease;
+}
+
+.arrow:hover {
+  background: rgba(200,200,200,0.8);
+}
+
+.nav-vertical {
+  margin-top: 1rem;
+}
+
+.nav-vertical a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(0, 41, 174);
+  font-family: "LT Asus Mono", monospace;
+}
