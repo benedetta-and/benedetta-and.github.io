@@ -79,10 +79,10 @@
         text-align: center;
     }
 
-    .project {
+.project {
   text-align: center;
   padding: 2rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 0.5px solid rgba(0,0,0,0.2);
 }
 
 .filmstrip {
@@ -90,7 +90,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: 90%;
   overflow: hidden; /* hides overflow during scroll */
 }
@@ -100,7 +100,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  gap: 10px;
+  gap: 20px;
 }
 
 .images img {
@@ -116,17 +116,18 @@
 }
 
 .arrow {
-  background: rgba(255,255,255,0.8);
+  background: transparent;
+  color: olive;
   border: none;
   font-size: 2rem;
   cursor: pointer;
   z-index: 10;
-  padding: 0 10px;
+  padding: 10px 10px;
   transition: background 0.2s ease;
 }
 
 .arrow:hover {
-  background: rgba(200,200,200,0.8);
+  color: olivedrab;
 }
 
 .nav-vertical {
