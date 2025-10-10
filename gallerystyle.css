@@ -10,12 +10,12 @@
 
     @font-face {
         font-family: LT Asus Mono;
-        src: url('LTAsusMono-Bold.ttf');
+        src: url('font/lt_asus/LTAsusMono-Italic.ttf');
     }
 
     @font-face {
         font-family: LT Asus Mono;
-        src: url('LTAsusMono-Italic.ttf');
+        src: url('font/lt_asus/LTAsusMono-Bold.ttf');
     }
 
     @font-face {
@@ -82,6 +82,8 @@
 .project {
   text-align: center;
   padding: 2rem 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .filmstrip {
@@ -89,8 +91,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-  max-height: 100%;
   overflow: hidden; /* hides overflow during scroll */
 }
 

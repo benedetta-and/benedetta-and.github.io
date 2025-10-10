@@ -6,12 +6,12 @@
 
     @font-face {
         font-family: LT Asus Mono;
-        src: url('LTAsusMono-Bold.ttf');
+        src: url('font/lt_asus/LTAsusMono-Bold.ttf');
     }
 
     @font-face {
         font-family: LT Asus Mono;
-        src: url('LTAsusMono-Italic.ttf');
+        src: url('font/lt_asus/LTAsusMono-Italic.ttf');
     }
 
     @font-face {
