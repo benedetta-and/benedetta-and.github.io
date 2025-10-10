@@ -97,14 +97,15 @@
 
 .images {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
-  gap: 20px;
+  gap: 30px;
 }
 
 .images img {
-  height: 300px;
+  height: 500px;
   flex: 0 0 auto;
   scroll-snap-align: start;
   border-radius: 8px;
