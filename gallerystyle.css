@@ -34,9 +34,9 @@
         color: #00499c;
         text-align: center;
         background-size: cover;
+        background: white;
         align-items: center;
         background-position: center;
-        background-image: url("bgs/video_photo_text.jpg");
         background-repeat: repeat-y;
     }
 
