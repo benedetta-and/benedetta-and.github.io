@@ -1,15 +1,21 @@
 function scrollLeft(btn) {
-  const images = btn.nextElementSibling;
-  images.scrollBy({
-  left: -300,
-  behavior: 'smooth'
-  });
+  const filmstrip = btn.parentElement;
+  const images = filmstrip.querySelector('.images');
+  if (images) {
+   images.scrollBy({
+    right: 300,
+    behavior: 'smooth'
+    });
+ }
 }
 
 function scrollRight(btn) {
-  const images = btn.previousElementSibling;
-  images.scrollBy({
-  left: 300,
-  behavior: 'smooth'
-  });
+  const filmstrip = btn.parentElement;
+  const images = filmstrip.querySelector('.images');
+  if (images) { 
+   images.scrollBy({
+    left: 300,
+    behavior: 'smooth'
+   });
+ }
 }

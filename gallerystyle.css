@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   height: 60vh;
   margin: 0 0;
   overflow: hidden; /* hides overflow during scroll */
@@ -129,7 +129,7 @@
   position: absolute;
   top: 50%;
   background: transparent;
-  color: olive;
+  color: rgb(0, 55, 128);
   border: none;
   font-size: 2rem;
   cursor: pointer;
@@ -147,7 +147,7 @@
   right: 10px;
 }
 .arrow:hover {
-  color: olivedrab;
+  color: rgb(75, 120, 255);
 }
 
 .nav-vertical {
