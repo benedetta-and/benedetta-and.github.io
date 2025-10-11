@@ -89,21 +89,12 @@
   position: relative;
 }
 
-.filmstrip-wrapper {
-  position: relative;
-  width: 87%;              /* match .filmstrip width or make it 100% of project inner width */
-  margin: 0 auto;          /* center wrapper horizontally */
-  display: flex;
-  align-items: center;     /* keeps inline layout if you want arrows visible */
-  justify-content: center;
-}
-
 .filmstrip {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 87%;
+  width: 80%;
   height: 60vh;
   margin: 0 0;
   overflow: hidden; /* hides overflow during scroll */
@@ -149,11 +140,11 @@
 }
 
 .arrow.left {
-  left: -2rem;
+  left: 10px;
 }
 
 .arrow.right {
-  right: -2rem;
+  right: 10px;
 }
 .arrow:hover {
   color: rgb(75, 120, 255);
