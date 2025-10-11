@@ -89,16 +89,6 @@
   position: relative;
 }
 
-.filmstrip {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 60vh;
-  margin: 0 0;
-  overflow: hidden; /* hides overflow during scroll */
-}
 
 .images {
   display: flex;
