@@ -1,18 +1,21 @@
 function scrollLeft(btn) {
-  const filmstrip = btn.parentElement;
-  const images = btn.nextElementSibling;
+  const project = btn.closest('.project');
+  const images = project.querySelector('.images');
   if (images) {
    images.scrollBy({
     left: -300,
     behavior: 'smooth'
-    });
+  });
  }
 }
 
 function scrollRight(btn) {
-  const images = btn.previousElementSibling;
-  images.scrollBy({
-  left: 300,
-  behavior: 'smooth'
+  const project = btn.closest('.project');
+  const images = project.querySelector('.images');
+  if (images) {
+   images.scrollBy({
+    left: 300,
+    behavior: 'smooth'
   });
+ }
 }
