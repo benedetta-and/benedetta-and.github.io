@@ -115,6 +115,7 @@
 
 .arrow {
   opacity: 1;
+  background-color: transparent;
   pointer-events: auto;
   color: rgb(0, 55, 128);
   border: none;
