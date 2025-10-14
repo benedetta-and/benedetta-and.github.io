@@ -90,13 +90,12 @@
 }
 
 .filmstrip {
+  width: 87%;
+  height: 60vh;  
+  overflow: hidden; /* hides overflow during scroll */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 87%;
-  height: 60vh;
-  margin: 0 auto;
-  overflow: hidden; /* hides overflow during scroll */
 }
 
 .organiser {
@@ -111,14 +110,11 @@
   flex-direction: row;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
   gap: 30px;
   height: 100%;
-  padding: 0 2rem;
 }
 
 .arrow {
-  top: 50%;
   background: transparent;
   color: rgb(0, 55, 128);
   border: none;
@@ -127,7 +123,6 @@
   z-index: 10;
   padding: 10px 10px;
   transition: background 0.2s ease;
-  transform: translateY(-50%);
 }
 
 .images img {
