@@ -97,6 +97,7 @@ body {
    .page-header a img {
         width: 120px;
         height: 160px; 
+        position: absolute; 
         object-fit: contain;
         transition: transform 0.2s ease;
     }
