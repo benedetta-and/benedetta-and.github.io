@@ -99,6 +99,7 @@
    .page-header a img {
         width: 120px;
         height: 160px; 
+        position: absolute;
         object-fit: contain;
         transition: transform 0.2s ease;
     }
@@ -106,8 +107,6 @@
 
     .page-header a .label {
         position: absolute;
-        left: 30%;
-        top:70%;
         opacity: 0;
         transition: opacity 0.3s ease;
     }
