@@ -46,3 +46,12 @@ function updateArrows(project) {
     rightArrow.style.pointerEvents = "auto";
   }
 }
+
+document.querySelectorAll('.project').forEach(project => {
+  const images = project.querySelector('.images');
+  if (images) {
+    images.addEventListener('scroll', () => updateArrows(project));
+    // Initial state on page load
+    updateArrows(project);
+  }
+});
