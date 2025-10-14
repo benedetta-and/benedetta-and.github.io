@@ -90,12 +90,11 @@
 }
 
 .filmstrip {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 87%;
-  height: 60vh;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden; /* hides overflow during scroll */
 }
