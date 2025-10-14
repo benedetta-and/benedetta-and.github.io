@@ -6,6 +6,7 @@ function scrollImageLeft(btn) {
     left: -300,
     behavior: 'smooth'
   });
+  setTimeout(() => updateArrows(project), 350); // Wait for scroll to finish
  }
 }
 
@@ -17,6 +18,7 @@ function scrollImageRight(btn) {
     left: 300,
     behavior: 'smooth'
   });
+   setTimeout(() => updateArrows(project), 350); // Wait for scroll to finish
  }
 }
 
