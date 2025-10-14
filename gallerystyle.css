@@ -108,14 +108,22 @@
 }
 
 .images {
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  flex: 1 1 auto;
   gap: 30px;
   height: 100%;
-  padding: 0 2rem;
+}
+
+.arrow {
+  top: 50%;
+  background: transparent;
+  color: rgb(0, 55, 128);
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px 10px;
+  transition: background 0.2s ease;
+  transform: translateY(-50%);
 }
 
 .images img {
@@ -132,18 +140,7 @@
   transform: scale(1.05);
 }
 
-.arrow {
-  top: 50%;
-  background: transparent;
-  color: rgb(0, 55, 128);
-  border: none;
-  font-size: 4rem;
-  cursor: pointer;
-  z-index: 10;
-  padding: 10px 10px;
-  transition: background 0.2s ease;
-  transform: translateY(-50%);
-}
+
 
 .arrow.left {
   left: 10px;
