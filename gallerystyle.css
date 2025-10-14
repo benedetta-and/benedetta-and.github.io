@@ -113,8 +113,6 @@
 
 
 .arrow {
-  position: absolute;
-  top: 50%;
   background: transparent;
   color: rgb(0, 55, 128);
   border: none;
@@ -125,6 +123,7 @@
   transition: background 0.2s ease;
   transform: translateY(-50%);
 }
+
 
 
 .images img {
