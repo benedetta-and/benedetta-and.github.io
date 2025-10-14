@@ -94,7 +94,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 87%;
+  width: max-content;
   height: 60vh;
   margin: 0 auto;
   overflow: hidden; /* hides overflow during scroll */
@@ -113,6 +113,7 @@
   overflow-x: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  width: 90%;;
   gap: 30px;
   height: 100%;
   padding: 0 2rem;
