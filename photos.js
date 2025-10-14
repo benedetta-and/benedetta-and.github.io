@@ -32,26 +32,18 @@ function updateArrows(project) {
   if (images.scrollLeft <= 0) {
     leftArrow.style.opacity = "0";
     leftArrow.style.pointerEvents = "none";
-    rightArrow.style.copacity = "1";
-    rightArrow.style.pointerEvents = "auto";
   } else {
     leftArrow.style.opacity = "1";
     leftArrow.style.pointerEvents = "auto";
-    rightArrow.style.copacity = "1";
-    rightArrow.style.pointerEvents = "auto";
   }
 
   // Hide right arrow if at end
   if (images.scrollLeft + images.clientWidth >= images.scrollWidth - 1) {
     rightArrow.style.opacity = "0";
     rightArrow.style.pointerEvents = "none";
-    leftArrow.style.opacity = "1";
-    leftArrow.style.pointerEvents = "auto";
   } else {
     rightArrow.style.opacity = "1";
     rightArrow.style.pointerEvents = "auto";
-    leftArrow.style.opacity = "1";
-    leftArrow.style.pointerEvents = "auto";
   }
 }
 
