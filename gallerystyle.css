@@ -90,33 +90,26 @@
 }
 
 .filmstrip {
-  width: 87%;
   height: 60vh;  
-  overflow: hidden; /* hides overflow during scroll */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.organiser {
-  display: flex;
-  align-items: center; /* Vertically center arrows to images */
-  width: 87%;
-}
 
 .images {
   display: flex;
   flex-direction: row;
+  overflow: hidden; /* hides overflow during scroll */
   overflow-x: scroll;
   scroll-behavior: smooth;
-  gap: 30px;
+  width: 87%;
   height: 100%;
+  gap: 30px;
 }
 
 .arrow {
-  opacity: 1;
-  background-color: transparent;
-  pointer-events: auto;
+  background: transparent;
   color: rgb(0, 55, 128);
   border: none;
   font-size: 4rem;

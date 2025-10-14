@@ -6,6 +6,7 @@ function scrollImageLeft(btn) {
     left: -300,
     behavior: 'smooth'
   });
+  updateArrows(project);
  }
 }
 
@@ -17,6 +18,7 @@ function scrollImageRight(btn) {
     left: 300,
     behavior: 'smooth'
   });
+  updateArrows(project);
  }
 }
 
