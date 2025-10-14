@@ -104,14 +104,8 @@ body {
 
     .page-header a .label {
         position: absolute;
-        top: 70%;
-        left: 40%;
         opacity: 0;
         transition: opacity 0.3s ease;
-        font-family: LT Asus Mono;
-        src: url('LTAsusMono-Bold.tff');
-        color: rgb(0, 41, 174);
-        font-size: 20px;
     }
 
     .page-header a:hover img {
@@ -122,8 +116,6 @@ body {
     .page-header a:hover .label {
        opacity: 1; 
        position: absolute;
-       top: 70%;
-       left: 40%;
        z-index: 1; 
        pointer-events: none;
     }
