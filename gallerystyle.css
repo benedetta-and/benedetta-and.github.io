@@ -89,7 +89,6 @@
     }
 
     .page-header {
-        position: relative;
         width: 100%;            /* full width of the page */
         text-align: center;     /* centers the title text */
         margin-top: 10px;
