@@ -151,35 +151,38 @@
 
 
 
-    @media only screen and (max-width: 980px) {
-        .grid-container {
+@media only screen and (max-width: 980px) {
+  .grid-container {
     grid-template-columns: repeat(2, 120px); /* 2 per row on tablets */
   }
 }
 
-     @media only screen and (max-width: 600px) {
-        .grid-container {
+@media only screen and (max-width: 600px) {
+  .grid-container {
     grid-template-columns: repeat(1, 120px); /* 1 per row on phones */
   }
-}
 
-    @media only screen and (max-width: 600px) {
   h1 {
     font-size: 60px;
+    margin: 0 0 10px 0;
   }
+
   h3 {
     font-size: 16px;
+    margin: 0 0 10px 0;
   }
 }
 
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   h1 {
     font-size: 60px;
+    margin: 0 0 10px 0;
   }
 
-  h1 .img{
-    width: 60px;
+  header a img{
+    width: 50px;
     height: auto;
+    margin: 0 0 10px 0;
   }
   h3 {
     font-size: 14px;

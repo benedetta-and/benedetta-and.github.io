@@ -216,6 +216,10 @@
    width: 90px;
    height: 120px;  
   }
+  .filmstrip {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -223,47 +227,43 @@
     width: 60px;
     height: auto;
   }
-}
 
- @media only screen and (max-width: 980px) {
   .filmstrip {
-    width: 98%;
-    height: 50vh;
+    width: 100%;
+    height: auto;
   }
-  .images {
-    gap: 20px;
-    height: 90%;
-    padding: 0 1rem;
-  }
-}
 
-     @media only screen and (max-width: 600px) {
-  .filmstrip {
-    width: 98%;
-    height: 35vh;
-  }
   .images {
     gap: 10px;
-    height: 80%;
+    width: 400px;
     padding: 0 0;
   }
-}
 
-    @media only screen and (max-width: 600px) {
   h1 {
     font-size: 60px;
+    margin: 0 0 10px 0;
   }
   h3 {
     font-size: 16px;
+    margin: 0 0 10px 0;
   }
 }
 
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   h1 {
+    position: relative;
     font-size: 40px;
+    margin: 0 0 10px 0;
+  }
+
+  header a img{ 
+    width: 50px;
+    height: auto;
+    margin: 0 10px 10px 10px;
   }
   h3 {
     font-size: 14px;
+    margin: 0 0 10px 0;
   }
 }
 
