@@ -84,12 +84,14 @@ body {
     }
 
     .page-header {
+        position: relative;
         width: 100%;            /* full width of the page */
         text-align: center;     /* centers the title text */
         margin-top: 10px;
     }
 
     .page-header a {
+        position: absolute;
         top: 0px;
         left: 20px;
         margin-top: 0;
@@ -196,9 +198,7 @@ body {
         margin-left: 40px;
         margin-right: 40px;
        }
-}
 
-    @media only screen and (max-width: 600px) {
   h1 {
     font-size: 60px;
   }
@@ -208,10 +208,19 @@ body {
 }
 
     @media only screen and (max-width: 400px) {
-  h1 {
+ h1 {
     font-size: 40px;
+    margin: 0 0 10px 0;
   }
-  h3 {
+
+ header a img{ 
+    width: 50px;
+    height: auto;
+    margin: 0 10px 10px 10px;
+ }
+
+ h3 {
     font-size: 14px;
+    margin: 0 0 10px 0;
   }
 }
