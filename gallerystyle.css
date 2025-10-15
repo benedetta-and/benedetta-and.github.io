@@ -223,11 +223,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .page-header a img {
-    width: 60px;
-    height: auto;
-  }
-
   .filmstrip {
     width: 100%;
     height: auto;
@@ -237,7 +232,14 @@
     gap: 10px;
     width: 400px;
     padding: 0 0;
+    align-items: center;
   }
+
+   header a img{ 
+    width: 50px;
+    height: auto;
+    margin: 0 0 0 0;
+ }
 
   h1 {
     font-size: 60px;
@@ -250,20 +252,33 @@
 }
 
 @media only screen and (max-width: 400px) {
-  h1 {
+h1 {
     position: relative;
     font-size: 40px;
     margin: 0 0 10px 0;
   }
 
-  header a img{ 
+header a img{ 
     width: 50px;
     height: auto;
-    margin: 0 10px 10px 10px;
+    margin: 0 0 0 0;
+    justify-items: left;
   }
-  h3 {
+h3 {
     font-size: 14px;
     margin: 0 0 10px 0;
+  }
+   
+.filmstrip {
+    width: 100%;
+    height: auto;
+  }
+
+.images {
+    gap: 8px;
+    width: 250px;
+    padding: 0 0;
+    align-items: center;
   }
 }
 
