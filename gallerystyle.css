@@ -210,3 +210,47 @@
   color: rgb(0, 41, 174);
   font-family: "LT Asus Mono", monospace;
 }
+
+ @media only screen and (max-width: 980px) {
+  .filmstrip {
+    width: 98%;
+    height: 50vh;
+  }
+  .images {
+    gap: 20px;
+    height: 90%;
+    padding: 0 1rem;
+  }
+}
+
+     @media only screen and (max-width: 600px) {
+  .filmstrip {
+    width: 98%;
+    height: 35vh;
+  }
+  .images {
+    gap: 10px;
+    height: 80%;
+    padding: 0 0;
+  }
+}
+
+    @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+    @media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+}
+
+
