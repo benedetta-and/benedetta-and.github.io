@@ -172,7 +172,7 @@ body {
         
 @media only screen and (max-width: 980px) {
     .page-header a img {
-       max-width: 10%;
+       width: 90px;
        height: 120px;  
      }
 
@@ -182,9 +182,9 @@ body {
      }
 }
 
-@media only screen and (max-width: 600px) {
+     @media only screen and (max-width: 600px) {
     .page-header a img {
-     max-width: 10%;
+     width: 60px;
      height: auto;
        }
 
@@ -194,39 +194,20 @@ body {
        }
 }
 
-@media only screen and (max-width: 600px) {
- 
-.page-header a img{ 
-    max-width: 10%;
-    height: auto;
-    margin: 0 20px 20px 20px;
- } 
- 
- h1 {
-    font-size: 50px;
-    margin: 0 0 10px 0;
+    @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
   }
   h3 {
-    font-size: 20px;
-    margin: 0 0 10px 0;
+    font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 400px) {
   h1 {
     font-size: 40px;
-    margin: 0 0 10px 0;
   }
-
-.page-header a img{ 
-    max-width: 10%;
-    height: auto;
-    margin: 0 0 0 0;
-    justify-items: left;
- }
-
-h3 {
-    font-size: 20px;
-    margin: 0 0 10px 0;
+  h3 {
+    font-size: 14px;
   }
 }
