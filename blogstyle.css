@@ -172,7 +172,7 @@ body {
         
 @media only screen and (max-width: 980px) {
     .page-header a img {
-       width: 90px;
+       max-width: 10%;
        height: 120px;  
      }
 
@@ -184,7 +184,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .page-header a img {
-     width: 60px;
+     max-width: 10%;
      height: auto;
        }
 
@@ -196,18 +196,18 @@ body {
 
 @media only screen and (max-width: 600px) {
  
-  header a img{ 
-    width: 50px;
+.page-header a img{ 
+    max-width: 10%;
     height: auto;
-    margin: 0 0 0 0;
+    margin: 0 20px 20px 20px;
  } 
  
  h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0 0 10px 0;
   }
   h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 0 10px 0;
   }
 }
@@ -218,15 +218,15 @@ body {
     margin: 0 0 10px 0;
   }
 
- header a img{ 
-    width: 50px;
+.page-header a img{ 
+    max-width: 10%;
     height: auto;
     margin: 0 0 0 0;
     justify-items: left;
  }
 
 h3 {
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 0 10px 0;
   }
 }
