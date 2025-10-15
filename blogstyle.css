@@ -187,8 +187,8 @@ body {
 
      @media only screen and (max-width: 600px) {
     .page-header a img {
-        width: 30px;
-        height: 40px;
+     width: 60px;
+     height: auto;
        }
 
     .blogpost {

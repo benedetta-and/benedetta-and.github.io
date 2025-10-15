@@ -211,6 +211,20 @@
   font-family: "LT Asus Mono", monospace;
 }
 
+@media only screen and (max-width: 980px) {
+ .page-header a img {
+   width: 90px;
+   height: 120px;  
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page-header a img {
+    width: 60px;
+    height: auto;
+  }
+}
+
  @media only screen and (max-width: 980px) {
   .filmstrip {
     width: 98%;
