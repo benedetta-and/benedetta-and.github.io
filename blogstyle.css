@@ -106,6 +106,7 @@ body {
         position: absolute; 
         object-fit: contain;
         transition: transform 0.2s ease;
+        justify-items: flex-start;
     }
 
 
@@ -113,6 +114,7 @@ body {
         position: absolute;
         opacity: 0;
         transition: opacity 0.3s ease;
+        justify-items: flex-start;
     }
 
     .page-header a:hover img {
