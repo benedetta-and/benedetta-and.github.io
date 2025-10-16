@@ -30,7 +30,7 @@
 
     body {
         padding: 5px;
-        font-size: 20px;
+        font-size: 15px;
         color: #00499c;
         text-align: center;
         background-size: cover;
@@ -57,7 +57,7 @@
       font-family: LT Asus Mono;
       src: url('LTAsusMono-Bold.tff');
       color: rgb(0, 39, 72);
-      font-size: 18px;        
+      font-size: 25px;        
       text-align: center;
       flex-wrap: wrap;
       margin-left:120px;
@@ -69,7 +69,7 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(0, 78, 36);
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 10px;
         text-align: center;
         flex-wrap: wrap;
@@ -82,7 +82,7 @@
       font-family: Lt Amber;
       src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
       color:rgb(30, 0, 53);
-      padding: 10px;        
+      padding: 15px;        
       font-size: 13px;
       text-align: justify;
       text-align-last: center;
@@ -104,6 +104,7 @@
         margin-left: 0px;
         padding: 0px;
         display: inline-block;
+        justify-items: flex-start;
     }
 
    .page-header a img {
@@ -112,6 +113,7 @@
         position: absolute;
         object-fit: contain;
         transition: transform 0.2s ease;
+        justify-items: flex-start;
     }
 
 
@@ -119,6 +121,7 @@
         position: absolute;
         opacity: 0;
         transition: opacity 0.3s ease;
+        justify-items: flex-start;
     }
 
     .page-header a:hover img {

@@ -76,7 +76,7 @@ body {
         font-family: Lt Amber;
         src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
         color:rgb(48, 0, 85);
-        padding: 10px;
+        padding: 15px;
         font-size: 23px;
         text-align: justify;
         text-align-last: center;
@@ -98,6 +98,7 @@ body {
         margin-left: 0px;
         padding: 0px;
         display: inline-block;
+        justify-items: flex-start;
     }
 
    .page-header a img {
