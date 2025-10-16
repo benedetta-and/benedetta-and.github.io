@@ -229,6 +229,28 @@
    width: 90px;
    height: 120px;  
   }
+  .filmstrip {
+    width: 98vw;
+    height: 40vh;
+    min-height: 180px;
+  }
+  .images {
+    gap: 12px;
+    padding: 0 0.5rem;
+    height: 100%;
+  }
+  .arrow {
+    font-size: 1.5rem;
+    padding: 6px 6px;
+  }
+  .project {
+    padding: 0 0.5rem;
+  }
+  h1, h2, h3 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
 
 }
 
@@ -240,33 +262,39 @@
     align-self: left;
   }
 
-
+  .filmstrip {
+    width: 100vw;
+    height: 30vh;
+    min-height: 120px;
+  }
+  .images img {
+    height: 70vw;
+    max-height: 180px;
+    min-width: 120px;
+  }
+  .arrow {
+    font-size: 1.2rem;
+    padding: 4px 4px;
+  }
+  .project {
+    padding: 0 0.2rem;
+  }
+  .page-header a img {
+    width: 50px;
+    height: 70px;
+  }
   h1 {
-    font-size: 60px;
-    margin: 0 0 10px 0;
+    font-size: 1.3rem;
   }
-  h3 {
-    font-size: 16px;
-    margin: 0 0 10px 0;
+  h2, h3 {
+    font-size: 1rem;
   }
-
-}
-  h1 {
-    font-size: 60px;
-    margin: 0 0 10px 0;
+  .nav-vertical {
+    bottom: 1rem;
+    font-size: 1rem;
   }
-  h3 {
-    font-size: 16px;
-    margin: 0 0 10px 0;
-  }
-
 
     @media only screen and (max-width: 400px) {
-  h1 {
-    position: relative;
-    font-size: 40px;
-    margin: 0 0 10px 0;
-  }
 
   .page-header a img{ 
     width: 50px;
@@ -274,8 +302,25 @@
     margin: 0 10px 10px 10px;
     align-self: left;
   }
-  h3 {
-    font-size: 14px;
-    margin: 0 0 10px 0;
+  
+.filmstrip {
+    height: 22vh;
+    min-height: 70px;
   }
+  .images img {
+    height: 50vw;
+    min-width: 80px;
+    max-height: 90px;
+  }
+  .arrow {
+    font-size: 1rem;
+    padding: 2px 2px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h2, h3 {
+    font-size: 0.9rem;
+  }
+}
 }
