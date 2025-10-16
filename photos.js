@@ -54,8 +54,13 @@ document.querySelectorAll('.project').forEach(project => {
 // Wait for all images to load before initial arrow update
     const imgs = images.querySelectorAll('img');
     let loaded = 0;
+     function checkAndUpdate() {
+      // Use requestAnimationFrame to ensure layout is updated
+      requestAnimationFrame(() => updateArrows(project));
+    }
+
     if (imgs.length === 0) {
-      updateArrows(project);
+     checkAndUpdate();
     } else {
       imgs.forEach(img => {
         if (img.complete) {
@@ -64,15 +69,17 @@ document.querySelectorAll('.project').forEach(project => {
           img.addEventListener('load', () => {
             loaded++;
             if (loaded === imgs.length) {
-              updateArrows(project);
+              checkAndUpdate();
             }
           });
         }
       });
       // If all images were already loaded
       if (loaded === imgs.length) {
-        updateArrows(project);
+        checkAndUpdate();
       }
     }
+       // Also update arrows after window resize
+    window.addEventListener('resize', checkAndUpdate);
   }
 });

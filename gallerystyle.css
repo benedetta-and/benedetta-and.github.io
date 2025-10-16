@@ -34,8 +34,9 @@
         color: #00499c;
         text-align: center;
         background-size: cover;
-        background: white;
+        background: rgb(195, 222, 231);
         align-items: center;
+        background-image: url(bgs/gallerybg.jpg);
         background-position: center;
         background-repeat: repeat-y;
     }
@@ -43,7 +44,7 @@
     h1 {
       font-family: Cloud Candy;
       src: url('font/Cloud\ Candy.ttf');
-      color: rgb(185, 0, 83);
+      color: rgb(0, 59, 185);
       font-size: 60px;        
       text-align: center;
       margin-top: 0px;
@@ -55,8 +56,8 @@
     h2 {
       font-family: LT Asus Mono;
       src: url('LTAsusMono-Bold.tff');
-      color: rgb(172, 0, 143);
-      font-size: 25px;        
+      color: rgb(0, 39, 72);
+      font-size: 18px;        
       text-align: center;
       flex-wrap: wrap;
       margin-left:120px;
@@ -67,8 +68,8 @@
     h3 {
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
-        color: rgb(69, 0, 133);
-        font-size: 20px;
+        color: rgb(0, 78, 36);
+        font-size: 15px;
         margin-top: 10px;
         text-align: center;
         flex-wrap: wrap;
@@ -80,9 +81,9 @@
     p {
       font-family: Lt Amber;
       src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
-      color:rgb(48, 0, 85);
+      color:rgb(30, 0, 53);
       padding: 10px;        
-      font-size: 23px;
+      font-size: 13px;
       text-align: justify;
       text-align-last: center;
       flex-wrap: wrap;
