@@ -69,7 +69,7 @@
         font-family: LT Asus Mono;
         src: url('LTAsusMono-Italic.tff');
         color: rgb(0, 78, 36);
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 10px;
         text-align: center;
         flex-wrap: wrap;
@@ -82,7 +82,7 @@
       font-family: Lt Amber;
       src: url('font/lt_amber/LT\ Amber\ Cond\ Bold.otf');
       color:rgb(30, 0, 53);
-      padding: 15px;        
+      padding: 17px;        
       font-size: 13px;
       text-align: justify;
       text-align-last: center;
