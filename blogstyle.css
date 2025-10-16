@@ -48,7 +48,7 @@ body {
 
     h2 {
       font-family: LT Asus Mono;
-      src: url('LTAsusMono-Bold.tff');
+      src: url('font/lt_asus/LTAsusMono-Bold.ttf');
       color: rgb(0, 39, 72);
       font-size: 25px;        
       text-align: center;
@@ -59,7 +59,7 @@ body {
 
     h3 {
         font-family: LT Asus Mono;
-        src: url('LTAsusMono-Italic.tff');
+        src: url('font/lt_asus/LTAsusMono-BoldItalic.ttf');
         color: rgb(0, 78, 36);
         font-size: 22px;
         margin-top: 10px;
