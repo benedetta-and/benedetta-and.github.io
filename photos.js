@@ -51,7 +51,28 @@ document.querySelectorAll('.project').forEach(project => {
   const images = project.querySelector('.images');
   if (images) {
     images.addEventListener('scroll', () => updateArrows(project));
-    // Initial state on page load
-    updateArrows(project);
+// Wait for all images to load before initial arrow update
+    const imgs = images.querySelectorAll('img');
+    let loaded = 0;
+    if (imgs.length === 0) {
+      updateArrows(project);
+    } else {
+      imgs.forEach(img => {
+        if (img.complete) {
+          loaded++;
+        } else {
+          img.addEventListener('load', () => {
+            loaded++;
+            if (loaded === imgs.length) {
+              updateArrows(project);
+            }
+          });
+        }
+      });
+      // If all images were already loaded
+      if (loaded === imgs.length) {
+        updateArrows(project);
+      }
+    }
   }
 });
