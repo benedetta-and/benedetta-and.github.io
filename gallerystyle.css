@@ -260,6 +260,8 @@
     margin: 0 0 10px 0;
     height: auto;
     align-self: left;
+    width: 50px;
+    height: 70px;
   }
 
   .filmstrip {
@@ -287,9 +289,10 @@
     scrollbar-width: none;
   }
 
-   .images::-webkit-scrollbar {
+  .images::-webkit-scrollbar {
     display: none;
    } 
+   
   .images img {
     flex: 0 0 100%;
     width: 100%;
@@ -316,10 +319,7 @@
   .project {
     padding: 0 0.2rem;
   }
-  .page-header a img {
-    width: 50px;
-    height: 70px;
-  }
+
   h1 {
     font-size: 1.3rem;
   }
@@ -331,13 +331,14 @@
     font-size: 1rem;
   }
 
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
 
   .page-header a img{ 
     width: 50px;
     height: auto;
     margin: 0 10px 10px 10px;
     align-self: left;
+    justify-content: space-between;
   }
 
 .filmstrip {

@@ -181,6 +181,7 @@ body {
     .page-header a img {
        width: 90px;
        height: 120px;  
+       justify-content: space-between;
      }
 
     .blogpost {
@@ -195,9 +196,11 @@ body {
      height: auto;
        }
 
+
     .blogpost {
         margin-left: 40px;
         margin-right: 40px;
+        padding: 2px
        }
 
   h1 {
@@ -213,11 +216,19 @@ body {
     font-size: 40px;
     margin: 0 0 10px 0;
   }
-
+ .page-header {
+    justify-content: space-between;
+ }
  header a img{ 
     width: 50px;
     height: auto;
     margin: 0 10px 10px 10px;
+ }
+
+ .blogpost {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 2px
  }
 
  h3 {
