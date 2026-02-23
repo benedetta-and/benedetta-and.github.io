@@ -81,6 +81,14 @@ body {
         flex-wrap: wrap;
     }
 
+details summary {
+  list-style: none; /* removes default bullet/arrow */
+}
+
+details summary::-webkit-details-marker {
+  display: none; /* removes Chrome/Safari marker */
+}
+
     .page-header {
         position: relative;
         width: 100%;            /* full width of the page */
